@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 2px solid red; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color:bisque;
+
+}
+#maindiv{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(word.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#maindiv h1{
+     color: white;
+     font-size: 3rem;
+    letter-spacing: 15px;
+}
+input{
+    height: 2.6rem;
+    width: 25rem;
+    border-radius: 50px;
+    padding-left: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: #895be6;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: #581cb8;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#outputdiv{
+    /* border: 2px solid green; */
+   min-width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+    /* padding-top: 2rem; */
+    padding: 20px 20px;
+}
+.countriesCard{
+    border: .5px solid black;
+    height: 7rem;
+    width: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* opacity: .4; */
+    gap:10px
+
+}
+
+.countriesCard p{
+    /* border: 2px solid rgb(23, 0, 128); */
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.emptyInputBox{
+    /* border: 2px solid red; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

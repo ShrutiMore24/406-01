@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="maindiv">
+        <h1>World countries Data</h1>
+        <p id="totalCountriesLine" style="font-weight: 600; color: white;font-size: 1.4rem;"></p>
+        <p id="searchingResult" style="color: white; font-size: 1.4rem;"></p>
+        <div class="btn-div">
+            <button onclick="StrartWithWord()">Starting with word</button>
+            <button onclick="searchWithAnyWord()">Search with any word</button>
+            
+        </div>
+        <input onkeyup="StrartWithWord()" type="text" name="" id="inputData" placeholder="search countries.....">
+        <!-- <input  type="text" name="" id="inputData"> -->
+    </div>
+    <div id="outputdiv">
+
+    </div>
+</body>
+<script src="data.js"></script>
+<script src="index.js"></script>
+</html>
